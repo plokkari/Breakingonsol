@@ -465,4 +465,87 @@
     </section>
 
     <section class="why-section">
-        
+        <h2 class="why-title">Why Breaking Sol?</h2>
+        <div class="diagonal-boxes">
+            <div class="diagonal-box">Fair launch we're using pump.fun so there is no pre-sale and no insiders.</div>
+            <div class="diagonal-box">Breaking Bad and Better Call Saul, are top tier series and loved worldwide.</div>
+            <div class="diagonal-box">We care about our product and Dev wallet will only be used to promote/boost $BSOL.</div>
+        </div>
+    </section>
+
+    <section class="roadmap-section">
+        <img src="images/roadmap-background.gif" alt="Breaking Sol Background" class="roadmap-background">
+        <div class="roadmap-content-wrapper">
+            <div class="roadmap-box">
+                <h3>Breaking Sol Roadmap</h3>
+            </div>
+
+            <div class="roadmap-box">
+                <h3>Phase 1: The Lab</h3>
+                <ul>
+                    <li>Concept creation and branding</li>
+                    <li>Token contract development on Solana</li>
+                    <li>Launch on DEX Moonshot</li>
+                    <li>Build community engagement</li>
+                </ul>
+            </div>
+
+            <div class="roadmap-box">
+                <h3>Phase 2: The Cook</h3>
+                <ul>
+                    <li>Social media campaigns</li>
+                    <li>Influencer collaborations</li>
+                    <li>Secure DEX listings</li>
+                    <li>Initial token burns</li>
+                </ul>
+            </div>
+
+            <div class="roadmap-box">
+                <h3>Phase 3: The Explosion</h3>
+                <ul>
+                    <li>Launch airdrops</li>
+                    <li>Cross-chain expansion</li>
+                </ul>
+            </div>
+
+            <div class="roadmap-box">
+                <h3>Phase 4: The Empire</h3>
+                <ul>
+                    <li>Marketplace integration</li>
+                    <li>Establish as Solana memecoin king</li>
+                    <li>Community governance</li>
+                </ul>
+            </div>
+
+            <div class="roadmap-box">
+                <h3>"The cook has just begun..."</h3>
+            </div>
+        </div>
+    </section>
+
+    <footer class="social-footer">
+        <a href="https://t.me/breakingonsol" target="_blank" class="social-icon">
+            <img src="images/Telegram" alt="Telegram">
+        </a>
+        <a href="https://x.com/breakingonsol?s=11" target="_blank" class="social-icon">
+            <img src="images/X" alt="X">
+        </a>
+        <a href="https://t.me/+crzn7-OC0943ZTQ0" target="_blank" class="social-icon">
+            <img src="images/Dex" alt="Coming Soon">
+        </a>
+    </footer>
+
+    <script>
+        function copyContract() {
+            const contractAddress = "Coming soon!";
+            navigator.clipboard.writeText(contractAddress)
+                .then(() => {
+                    alert("Contract address copied!");
+                })
+                .catch(err => {
+                    console.error('Failed to copy: ', err);
+                });
+        }
+    </script>
+</body>
+</html>
